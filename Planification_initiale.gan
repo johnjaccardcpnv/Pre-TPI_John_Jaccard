@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-01-26" view-index="0" gantt-divider-location="567" resource-divider-location="300" version="3.3.3322" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="388" order="0"/>
+        <field id="tpd4" name="Date de début" width="78" order="1"/>
+        <field id="tpd5" name="Date de fin" width="85" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ffff00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="2d4140ee6c2a4cc5bd5c751e99af4c8b" name="Analyse et tests" meeting="false" start="2026-02-02" duration="5" complete="0" expand="true">
+            <task id="3" uid="df74ffc42bdb44048c703d0a17018a2d" name="Découverte cahier des charges" meeting="false" start="2026-02-02" duration="1" complete="0" expand="true"/>
+            <task id="2" uid="851c58022ab94fd5822f21099d749c4d" name="Explication du projet" color="#8cb6ce" meeting="false" start="2026-02-02" duration="1" complete="0" expand="true"/>
+            <task id="1" uid="871cf02279d54e429b3dd31d413d5f67" name="Test de l'envirronement" meeting="false" start="2026-02-02" duration="5" complete="0" expand="true"/>
+        </task>
+        <task id="37" uid="26ac840ed412405b8d9d41ee108535dc" name="Documentation" color="#000000" meeting="false" start="2026-02-03" duration="43" complete="0" expand="true">
+            <task id="12" uid="45661ecaaed74c82bf99ef081b19ae2e" name="Création documentation et remplissage avec les informations de base" color="#8cb6ce" meeting="false" start="2026-02-03" duration="2" complete="0" expand="true"/>
+            <task id="38" uid="b0105fe537a94277aa90dbed82729117" name="Création manuel utilisation" color="#8cb6ce" meeting="false" start="2026-03-30" duration="2" complete="0" expand="true"/>
+            <task id="39" uid="f29ca81c467146f8a32697e97aa91c23" name="Conclure la phase de tests et erreurs restantes" color="#8cb6ce" meeting="false" start="2026-04-02" duration="1" complete="0" expand="true"/>
+            <task id="43" uid="361b011ba74e4424950765e0df619f81" name="Finaliser documentation et recheck ce qui avait deja été fait" color="#8cb6ce" meeting="false" start="2026-03-23" duration="5" complete="0" expand="true"/>
+        </task>
+        <task id="20" uid="bc7e0a3fa606489ca8fe8ee6f7c28532" name="Gestion base de donnée" color="#000000" meeting="false" start="2026-02-05" duration="7" complete="0" expand="true">
+            <task id="6" uid="98c958f2c1684d42b66d7098f6e97af1" name="Création DB" color="#8cb6ce" meeting="false" start="2026-02-05" duration="3" complete="0" expand="true"/>
+            <task id="18" uid="933c93184ea94faea2ef117597fb2891" name="Import de data dans la DB depuis les ressources disponibles" color="#8cb6ce" meeting="false" start="2026-02-09" duration="4" complete="0" expand="true"/>
+            <task id="35" uid="6ce67ce59e734e399447fe76a297f2ad" name="Modification de la DB pour ajouter les professeurs" color="#8cb6ce" meeting="false" start="2026-02-11" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="5" uid="e3d17dc7c17f47d09aff7607fc67f94f" name="Implémentation application powerapp" color="#000000" meeting="false" start="2026-02-09" duration="39" complete="0" expand="true">
+            <task id="19" uid="4830fb3d8fa047ae823b3bbaf64aefdd" name="Création planning sur powerapp par élèves" color="#8cb6ce" meeting="false" start="2026-02-23" duration="3" complete="0" expand="true"/>
+            <task id="7" uid="170e19522e2c4282b418167ebbf35dd5" name="Création application de base pour mainscreen" color="#8cb6ce" meeting="false" start="2026-02-09" duration="2" complete="0" expand="true"/>
+            <task id="11" uid="10643b77322b416bbcc50ca56c6e356e" name="Fiche détaillée application" color="#8cb6ce" meeting="false" start="2026-02-11" duration="3" complete="0" expand="true"/>
+            <task id="10" uid="bc6a8f6011164dc3b85f11484736e8cf" name="Gestion des classes" color="#8cb6ce" meeting="false" start="2026-02-13" duration="1" complete="0" expand="true"/>
+            <task id="28" uid="dac3d523837643d9ae2c5b393e2c6757" name="Gestion absence par période" color="#8cb6ce" meeting="false" start="2026-02-25" duration="7" complete="0" expand="true"/>
+            <task id="34" uid="974e900034824c88b7dbdf1fa7461141" name="Ajouter les vues différentes selon le role de l'utilisateur (professeur/élève/secrétariat)" color="#8cb6ce" meeting="false" start="2026-03-02" duration="5" complete="0" expand="true"/>
+            <task id="42" uid="a90ae667b22f487f84b26afcaebcc98d" name="Écran des notes" color="#8cb6ce" meeting="false" start="2026-03-16" duration="5" complete="0" expand="true"/>
+            <task id="36" uid="067af5cf8b8b4c26920b8b45cd1d690e" name="Phase de test finale pour vérifier les potentiels bugs" color="#8cb6ce" meeting="false" start="2026-03-30" duration="4" complete="0" expand="true"/>
+        </task>
+        <task id="29" uid="23a8b0c07e9b4b7c9d758dbfed4975c1" name="Flows powerautomate" color="#000000" meeting="false" start="2026-02-27" duration="3" complete="0" expand="true">
+            <task id="30" uid="93944e51353d4551b374cbb3fa5007b2" name="Demande de justificatif automatisé" color="#8cb6ce" meeting="false" start="2026-02-27" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="32" uid="19fb7481074543a9aea633198f03ce72" name="PowerBI" color="#000000" meeting="false" start="2026-03-09" duration="5" complete="0" expand="true">
+            <task id="33" uid="747e3a8a4b8b4b7681c712e979ecc843" name="Vue avec filtres des absences des élèves" color="#8cb6ce" meeting="false" start="2026-03-09" duration="5" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
